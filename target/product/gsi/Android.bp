@@ -124,14 +124,6 @@ android_filesystem_defaults {
         "com.android.vndk.v33",
         "com.android.vndk.v34",
 
-        ///////////////////////////////////////////
-        // gsi_product
-        ///////////////////////////////////////////
-        "Browser2",
-        "Camera2",
-        "Dialer",
-        "LatinIME",
-        "apns-full-conf.xml",
         "frameworks-base-overlays",
     ],
     multilib: {
@@ -181,11 +173,6 @@ android_system_image {
         "EmergencyInfo",
 
         // handheld_product
-        "Calendar",
-        "Contacts",
-        "DeskClock",
-        "Gallery2",
-        "Music",
         "preinstalled-packages-platform-handheld-product.xml",
         "QuickSearchBox",
         "SettingsIntelligence",
